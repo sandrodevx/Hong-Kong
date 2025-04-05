@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante Chino Hong Kong - Andratx, Islas Baleares</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Favicon -->
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" alt="Hong Kong" height="40" class="d-inline-block align-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Menú</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#galeria">Galería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#nosotros">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="inicio" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12 text-center text-white">
+                    <h1 class="display-3 fw-bold">Restaurante Chino Hong Kong</h1>
+                    <p class="lead">Auténtica cocina china en el corazón de Andratx</p>
+                    <a href="#reservas" class="btn btn-primary btn-lg mt-3">Reserva ahora</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sobre Nosotros -->
+    <section id="nosotros" class="py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <img src="img/familia.jpg" alt="Familia trabajadora" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="fw-bold mb-4">Nuestra Historia</h2>
+                    <p class="lead">Más que un restaurante, una familia</p>
+                    <p>Desde 1995, el Restaurante Chino Hong Kong ha sido un referente de la gastronomía china en Andratx. Fundado por la familia Chen, hemos mantenido las recetas tradicionales combinadas con el mejor producto local.</p>
+                    <p>Nuestro compromiso es ofrecer un servicio excepcional en un ambiente familiar donde cada cliente se siente como en casa.</p>
+                    <div class="d-flex mt-4">
+                        <div class="me-4">
+                            <i class="fas fa-utensils fa-2x text-primary mb-2"></i>
+                            <h5 class="fw-bold">Cocina Auténtica</h5>
+                        </div>
+                        <div class="me-4">
+                            <i class="fas fa-heart fa-2x text-primary mb-2"></i>
+                            <h5 class="fw-bold">Hecho con Amor</h5>
+                        </div>
+                        <div>
+                            <i class="fas fa-award fa-2x text-primary mb-2"></i>
+                            <h5 class="fw-bold">Calidad Garantizada</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menú Destacado -->
+    <section id="menu" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Nuestro Menú</h2>
+                <p class="lead text-muted">Los platos más populares de nuestra cocina</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="img/plato1.jpg" class="card-img-top" alt="Pollo al limón">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Pollo al Limón</h5>
+                            <p class="card-text text-muted">Trozos de pollo crujiente bañados en nuestra exclusiva salsa agridulce con limón fresco.</p>
+                            <p class="fw-bold text-primary">12,50 €</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="img/plato2.jpg" class="card-img-top" alt="Cerdo agridulce">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Cerdo Agridulce</h5>
+                            <p class="card-text text-muted">Lomos de cerdo en una perfecta combinación de sabores dulces y ácidos con piña natural.</p>
+                            <p class="fw-bold text-primary">14,00 €</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="img/plato3.jpg" class="card-img-top" alt="Arroz tres delicias">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Arroz Tres Delicias</h5>
+                            <p class="card-text text-muted">Arroz frito con gambas, pollo, jamón, huevo y verduras frescas. Un clásico de nuestra casa.</p>
+                            <p class="fw-bold text-primary">10,50 €</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-5">
+                <a href="#" class="btn btn-outline-primary btn-lg">Ver menú completo</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galería -->
+    <section id="galeria" class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Galería</h2>
+                <p class="lead text-muted">Momentos en Hong Kong</p>
+            </div>
+            <div class="row g-3">
+                <div class="col-6 col-md-4 col-lg-3">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#galleryModal" data-bs-img="img/galeria1.jpg">
+                        <img src="img/galeria1.jpg" alt="Interior restaurante" class="img-fluid rounded shadow-sm gallery-img">
+                    </a>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#galleryModal" data-bs-img="img/galeria2.jpg">
+                        <img src="img/galeria2.jpg" alt="Plato de dim sum" class="img-fluid rounded shadow-sm gallery-img">
+                    </a>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#galleryModal" data-bs-img="img/galeria3.jpg">
+                        <img src="img/galeria3.jpg" alt="Cocina abierta" class="img-fluid rounded shadow-sm gallery-img">
+                    </a>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#galleryModal" data-bs-img="img/galeria4.jpg">
+                        <img src="img/galeria4.jpg" alt="Té chino" class="img-fluid rounded shadow-sm gallery-img">
+                    </a>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#galleryModal" data-bs-img="img/galeria5.jpg">
+                        <img src="img/galeria5.jpg" alt="Familia comiendo" class="img-fluid rounded shadow-sm gallery-img">
+                    </a>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#galleryModal" data-bs-img="img/galeria6.jpg">
+                        <img src="img/galeria6.jpg" alt="Chef preparando comida" class="img-fluid rounded shadow-sm gallery-img">
+                    </a>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#galleryModal" data-bs-img="img/galeria7.jpg">
+                        <img src="img/galeria7.jpg" alt="Decoración china" class="img-fluid rounded shadow-sm gallery-img">
+                    </a>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#galleryModal" data-bs-img="img/galeria8.jpg">
+                        <img src="img/galeria8.jpg" alt="Postres tradicionales" class="img-fluid rounded shadow-sm gallery-img">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section class="py-5 bg-primary text-white">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Lo que dicen nuestros clientes</h2>
+                <p class="lead">Experiencias en Hong Kong</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 bg-dark text-white">
+                        <div class="card-body text-center p-4">
+                            <img src="img/cliente1.jpg" alt="Cliente satisfecho" class="rounded-circle mb-3" width="80">
+                            <p class="card-text">"La mejor comida china de Mallorca. El ambiente familiar y el servicio excepcional hacen que siempre volvamos."</p>
+                            <div class="text-warning mb-2">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <h5 class="card-title fw-bold">María González</h5>
+                            <p class="text-muted">Cliente habitual</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 bg-dark text-white">
+                        <div class="card-body text-center p-4">
+                            <img src="img/cliente2.jpg" alt="Cliente satisfecho" class="rounded-circle mb-3" width="80">
+                            <p class="card-text">"El cerdo agridulce es increíble. Llevo viniendo aquí desde que era niño y la calidad siempre ha sido excelente."</p>
+                            <div class="text-warning mb-2">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <h5 class="card-title fw-bold">Juan Martínez</h5>
+                            <p class="text-muted">Cliente desde 1998</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 bg-dark text-white">
+                        <div class="card-body text-center p-4">
+                            <img src="img/cliente3.jpg" alt="Cliente satisfecho" class="rounded-circle mb-3" width="80">
+                            <p class="card-text">"Descubrimos este lugar de casualidad y ahora es nuestro favorito. La atención es maravillosa y los platos deliciosos."</p>
+                            <div class="text-warning mb-2">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <h5 class="card-title fw-bold">Laura y Pedro</h5>
+                            <p class="text-muted">Visitantes frecuentes</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservas y Contacto -->
+    <section id="contacto" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <div class="card shadow-sm">
+                        <div class="card-body p-4">
+                            <h3 class="fw-bold mb-4">Reserva tu mesa</h3>
+                            <form id="reservaForm">
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <label for="nombre" class="form-label">Nombre</label>
+                                        <input type="text" class="form-control" id="nombre" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="telefono" class="form-label">Teléfono</label>
+                                        <input type="tel" class="form-control" id="telefono" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="fecha" class="form-label">Fecha</label>
+                                        <input type="date" class="form-control" id="fecha" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="hora" class="form-label">Hora</label>
+                                        <input type="time" class="form-control" id="hora" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="personas" class="form-label">Personas</label>
+                                        <select class="form-select" id="personas" required>
+                                            <option value="1">1 persona</option>
+                                            <option value="2">2 personas</option>
+                                            <option value="3">3 personas</option>
+                                            <option value="4">4 personas</option>
+                                            <option value="5">5 personas</option>
+                                            <option value="6">6 personas</option>
+                                            <option value="7">7+ personas</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="email" class="form-label">Email</label>
+                                        <input type="email" class="form-control" id="email" required>
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="comentarios" class="form-label">Comentarios adicionales</label>
+                                        <textarea class="form-control" id="comentarios" rows="3"></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <button type="submit" class="btn btn-primary w-100 py-2">Reservar</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card shadow-sm h-100">
+                        <div class="card-body p-4">
+                            <h3 class="fw-bold mb-4">Contacto</h3>
+                            <div class="mb-4">
+                                <h5 class="fw-bold"><i class="fas fa-map-marker-alt me-2 text-primary"></i> Dirección</h5>
+                                <p>Calle de la Palma, 12, 07150 Andratx, Islas Baleares</p>
+                                <div class="ratio ratio-16x9">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3078.123456789012!2d2.4201234!3d39.567891!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMznCsDM0JzA0LjQiTiAywrAyNScxMi41IkU!5e0!3m2!1ses!2ses!4v1234567890123!5m2!1ses!2ses" allowfullscreen="" loading="lazy"></iframe>
+                                </div>
+                            </div>
+                            <div class="mb-4">
+                                <h5 class="fw-bold"><i class="fas fa-clock me-2 text-primary"></i> Horario</h5>
+                                <ul class="list-unstyled">
+                                    <li><strong>Lunes a Jueves:</strong> 13:00 - 16:00 / 20:00 - 23:30</li>
+                                    <li><strong>Viernes y Sábado:</strong> 13:00 - 16:30 / 20:00 - 00:00</li>
+                                    <li><strong>Domingo:</strong> 13:00 - 16:00 / Cerrado por la noche</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h5 class="fw-bold"><i class="fas fa-phone me-2 text-primary"></i> Teléfono</h5>
+                                <p><a href="tel:+34971123456" class="text-decoration-none">971 12 34 56</a></p>
+                                <h5 class="fw-bold mt-3"><i class="fas fa-envelope me-2 text-primary"></i> Email</h5>
+                                <p><a href="mailto:info@hongkongandratx.com" class="text-decoration-none">info@hongkongandratx.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal Galería -->
+    <div class="modal fade" id="galleryModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center p-0">
+                    <img src="" alt="Imagen galería" class="img-fluid" id="modalImage">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5 class="fw-bold mb-3">Restaurante Chino Hong Kong</h5>
+                    <p>Auténtica cocina china en Andratx desde 1995. Calidad, tradición y servicio familiar.</p>
+                    <div class="social-icons">
+                        <a href="#" class="text-white me-2"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-tripadvisor"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5 class="fw-bold mb-3">Enlaces rápidos</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#inicio" class="text-white text-decoration-none">Inicio</a></li>
+                        <li class="mb-2"><a href="#menu" class="text-white text-decoration-none">Menú</a></li>
+                        <li class="mb-2"><a href="#galeria" class="text-white text-decoration-none">Galería</a></li>
+                        <li class="mb-2"><a href="#nosotros" class="text-white text-decoration-none">Nosotros</a></li>
+                        <li><a href="#contacto" class="text-white text-decoration-none">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="fw-bold mb-3">Newsletter</h5>
+                    <p>Suscríbete para recibir nuestras ofertas especiales.</p>
+                    <form class="mb-3">
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Tu email" required>
+                            <button class="btn btn-primary" type="submit">Suscribir</button>
+                        </div>
+                    </form>
+                    <p class="small text-muted">© 2023 Hong Kong. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JS personalizado -->
+    <script src="js/script.js"></script>
+</body>
+</html>
